@@ -1,1 +1,17 @@
-
+body{
+    margin:0px;
+    padding:0px;
+    background-color: black;
+}
+.logo img{
+    position:absolute;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+nav ul li{
+    list-style-type: none;
+    display: block;
+    text-align: right;
+    margin:5px;
+    font-size: 20px;
+}
