@@ -1,1 +1,111 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: black;
+}
+.logo img{
+    position:absolute;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+nav ul li{
+    list-style-type: none;
+    display: block;
+    text-align: right;
+    margin:5px;
+    font-size: 20px;
+}
+ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+ul li a:hover{
+    color:orange;
+    text-decoration: underline;
+}
+h1{
+    color:orange;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 50px;
+}
+h2{
+    color:orange;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 30px;
+}
+.image1 img{
+    position:absolute;
+    margin-top: -100px;
+    margin-left: 200px;
+}
+.image2 img{
+    position:absolute;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+.image3 img{
+    position:absolute;
+    margin-top: 70px;
+    margin-left: 1000px;
+}
+.trait{
+    background-color: orange;
+    height:1500px;
+    margin-top:250px;
+    padding: 1px;
+}
+h3{
+    color:antiquewhite;
+    margin-top: 100px;
+    margin-left: 250px;
+    font-size: 50px;
+}
+h3 p{
+    color:antiquewhite;
+    margin-top: 15px;
+    margin-left: -150px;
+    font-size: 18px;
+}
+h3 p a{
+    color:black;
+}
+h4{
+    color:antiquewhite;
+    margin-top: 175px;
+    margin-left: 975px;
+    font-size: 50px;
+}
+h4 p{
+    color:antiquewhite;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 18px;
+}
+h4 p a{
+    color:black;
+}
+h5{
+    color:antiquewhite;
+    margin-top: 150px;
+    margin-left: 215px;
+    font-size: 50px;
+}
+h5 p{
+    color:antiquewhite;
+    margin-top: 15px;
+    margin-left: -100px;
+    font-size: 18px;
+}
+h5 p a{
+    color:black;
+}
+.slider-1{
+    max-width: 600px;
+    margin:100px auto;
+    border: 1px solid #fff;
+}
 
