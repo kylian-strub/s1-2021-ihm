@@ -17,6 +17,11 @@ ul li a{
     margin-top: -5px;
 }
 
+ul li a:hover{
+    color:orange;
+    text-decoration: underline;
+}
+
 h3 {
     color:antiquewhite;
 }
