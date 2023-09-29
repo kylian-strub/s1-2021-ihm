@@ -65,75 +65,150 @@ h3{
     font-size: 50px;
 }
 h3 p{
-    color:antiquewhite;
+    color:rgb(0, 0, 0);
     margin-top: 15px;
     margin-left: -150px;
-    font-size: 18px;
+    font-size: 25px;
 }
 h3 p a{
-    color:black;
+    color:gray;
 }
 .image4 img{
     position: absolute;
-    margin-top: -330px;
-    margin-left: 900px;
-    width: 375px;
+    margin-top: -500px;
+    margin-left: 750px;
+    width: 550px;
 }
 h4{
     color:antiquewhite;
-    margin-top: 190px;
-    margin-left: 750px;
+    margin-top: 200px;
+    margin-left: 800px;
     font-size: 50px;
 }
 h4 p{
-    color:antiquewhite;
+    color:rgb(0, 0, 0);
     margin-top: 15px;
-    margin-left: 25px;
-    font-size: 18px;
+    margin-left: -65px;
+    font-size: 25px;
 }
 h4 p a{
-    color:black;
+    color:gray;
 }
 .image5 img{
     position: absolute;
-    margin-top: -200px;
-    margin-left: 200px;
-    width: 500px;
+    margin-top: -325px;
+    margin-left: 75px;
+    width: 650px;
 }
 h5{
     color:antiquewhite;
-    margin-top: 215px;
+    margin-top: 150px;
     margin-left: 175px;
     font-size: 50px;
 }
 h5 p{
-    color:antiquewhite;
+    color:rgb(0, 0, 0);
     margin-top: 15px;
-    margin-left: -100px;
-    font-size: 18px;
+    margin-left: -80px;
+    font-size: 25px;
 }
 h5 p a{
-    color:black;
+    color:gray;
 }
 .image6 img{
     position: absolute;
-    margin-top: -250px;
-    margin-left: 720px;
-    width: 600px;
+    margin-top: -450px;
+    margin-left: 700px;
+    width: 750px;
 }
 #slider {
     width:1453.5px;
     overflow: hidden;
-    height:589px;
+    height: 589px;
     border: 10px solid #ffffff;
     display: flex;
     margin-top: -350px;
 }
 .slider_images {
     display: flex;
-    animation-duration: 30s;
+    animation-duration: 20s;
     animation-name: MesImages;
     animation-iteration-count: infinite;
+}
+.slider_images .image7{
+    position:relative
+}
+.slider_images .pardessus1{
+    position: absolute;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 600px;
+    color:orangered;
+}
+.slider_images .pardessus1 a{
+    color:orange
+}
+.slider_images .pardessus2{
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 460px;
+    margin-left: 375px;
+    color:rgb(254, 114, 0);
+}
+.slider_images .pardessus2 a{
+    color:orange
+}
+.slider_images .image8{
+    position:relative
+}
+.slider_images .pardessus3{
+    position: absolute;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 2000px;
+    color:orangered;
+}
+.slider_images .pardessus3 a{
+    color:orange
+}
+.slider_images .pardessus4{
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 460px;
+    margin-left: 1600px;
+    color:rgb(254, 114, 0);
+}
+.slider_images .pardessus4 a{
+    color:orange
+}
+.slider_images .image9{
+    position:relative
+}
+.slider_images .pardessus5{
+    position: absolute;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 3500px;
+    color:orangered;
+}
+.slider_images .pardessus5 a{
+    color:orange
+}
+.slider_images .pardessus6{
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 460px;
+    margin-left: 3100px;
+    color:rgb(254, 114, 0);
+}
+.slider_images .pardessus6 a{
+    color:orange
 }
 
 @keyframes MesImages{
@@ -173,4 +248,3 @@ h6{
     margin-left: 40px;
     font-size: 20px;
 }
-
