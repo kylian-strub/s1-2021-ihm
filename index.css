@@ -25,13 +25,13 @@ ul li a:hover{
     color:orange;
     text-decoration: underline;
 }
-h1{
+.bienvenue{
     color:orange;
     text-align: center;
     margin-top: -10px;
     font-size: 50px;
 }
-h2{
+.slogan{
     color:orange;
     text-align: center;
     margin-top: -30px;
@@ -41,190 +41,149 @@ h2{
     position:absolute;
     margin-top: -100px;
     margin-left: 200px;
+    border-radius: 30px;
 }
 .image2 img{
     position:absolute;
     margin-top: 150px;
     margin-left: 500px;
+    border-radius: 10px;
 }
 .image3 img{
     position:absolute;
     margin-top: 70px;
     margin-left: 1000px;
+    border-radius: 40px;
 }
 .body2{
-    background-color: orange;
+    background: linear-gradient(black,orange,orangered);
     height:1500px;
     margin-top:250px;
     padding: 1px;
 }
-h3{
-    color:antiquewhite;
+p.HistoireTitre{
+    color: rgb(255, 255, 255);
     margin-top: 100px;
-    margin-left: 250px;
+    margin-left: 255px;
     font-size: 50px;
 }
-h3 p{
+p.HistoireText{
     color:rgb(0, 0, 0);
-    margin-top: 15px;
-    margin-left: -150px;
+    margin-top: -45px;
+    margin-left: 250px;
     font-size: 25px;
+    width: 350px;
+    text-align: center;
 }
-h3 p a{
+p.HistoireText a{
     color:gray;
 }
 .image4 img{
     position: absolute;
-    margin-top: -500px;
+    margin-top: -475px;
     margin-left: 750px;
     width: 550px;
 }
-h4{
+p.EconomieTitre{
     color:antiquewhite;
     margin-top: 200px;
     margin-left: 800px;
     font-size: 50px;
 }
-h4 p{
+p.EconomieText{
     color:rgb(0, 0, 0);
-    margin-top: 15px;
-    margin-left: -65px;
+    margin-top: -45px;
+    margin-left: 820px;
     font-size: 25px;
+    width: 350px;
+    text-align: center;
 }
-h4 p a{
+p.EconomieText a{
     color:gray;
 }
 .image5 img{
     position: absolute;
-    margin-top: -325px;
+    margin-top: -365px;
     margin-left: 75px;
     width: 650px;
 }
-h5{
+p.EngagementsTitre{
     color:antiquewhite;
     margin-top: 150px;
     margin-left: 175px;
     font-size: 50px;
 }
-h5 p{
+p.EngagementsText{
     color:rgb(0, 0, 0);
-    margin-top: 15px;
-    margin-left: -80px;
+    margin-top: -45px;
+    margin-left: 195px;
     font-size: 25px;
+    width: 350px;
+    text-align: center;
 }
-h5 p a{
+p.EngagementsText a{
     color:gray;
 }
 .image6 img{
     position: absolute;
-    margin-top: -450px;
-    margin-left: 700px;
+    margin-top: -375px;
+    margin-left: 650px;
     width: 750px;
 }
 #slider {
-    width:1453.5px;
-    overflow: hidden;
-    height: 589px;
-    border: 10px solid #ffffff;
+    position: relative;
     display: flex;
-    margin-top: -350px;
+    align-items: center;
+    margin-top: -250px;
+    margin-left: 185px;
+    width: 1108px;
+    border: 2px solid white;
 }
-.slider_images {
-    display: flex;
-    animation-duration: 20s;
-    animation-name: MesImages;
-    animation-iteration-count: infinite;
+#precedent, #suivant {
+      cursor: pointer;
+      position: absolute;
+      font-size: 75px;
+      color: rgba(220, 220, 220, 0.7);
+      background-color: rgba(0, 0, 0, 0.69);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      padding: 15px;
 }
-.slider_images .image7{
-    position:relative
+#precedent {
+    left: 0;
 }
-.slider_images .pardessus1{
+#suivant {
+    right: 0;
+}
+#slider:hover #precedent, #slider:hover #suivant{
+    opacity: 1;
+}
+.slide.active {
+    display: block;
+}
+#slider .legende {
     position: absolute;
-    font-size: 60px;
-    text-align: center;
-    margin-top: 150px;
-    margin-left: 600px;
-    color:orangered;
+    margin-top: 504px;
+    padding: 25px;
+    width: 1058px;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.545);
+    color: black;
+    font-size: 30px;
+    display: none;
 }
-.slider_images .pardessus1 a{
-    color:orange
+#slider .legende.active {
+    display: block;
 }
-.slider_images .pardessus2{
-    position: absolute;
-    font-size: 35px;
-    text-align: center;
-    margin-top: 460px;
-    margin-left: 375px;
-    color:rgb(254, 114, 0);
+#slider .legende a {
+    color: orange;
 }
-.slider_images .pardessus2 a{
-    color:orange
-}
-.slider_images .image8{
-    position:relative
-}
-.slider_images .pardessus3{
-    position: absolute;
-    font-size: 60px;
-    text-align: center;
-    margin-top: 150px;
-    margin-left: 2000px;
-    color:orangered;
-}
-.slider_images .pardessus3 a{
-    color:orange
-}
-.slider_images .pardessus4{
-    position: absolute;
-    font-size: 35px;
-    text-align: center;
-    margin-top: 460px;
-    margin-left: 1600px;
-    color:rgb(254, 114, 0);
-}
-.slider_images .pardessus4 a{
-    color:orange
-}
-.slider_images .image9{
-    position:relative
-}
-.slider_images .pardessus5{
-    position: absolute;
-    font-size: 60px;
-    text-align: center;
-    margin-top: 150px;
-    margin-left: 3500px;
-    color:orangered;
-}
-.slider_images .pardessus5 a{
-    color:orange
-}
-.slider_images .pardessus6{
-    position: absolute;
-    font-size: 35px;
-    text-align: center;
-    margin-top: 460px;
-    margin-left: 3100px;
-    color:rgb(254, 114, 0);
-}
-.slider_images .pardessus6 a{
-    color:orange
-}
-
-@keyframes MesImages{
-    0% {
-        transform: translateX(0);
-    }
-    33% {
-        transform: translateX(-1453.5px);
-    }
-    66% {
-        transform: translateX(-2907px);
-    }
+#slider .legende:hover {
+    background-color: white;
 }
 footer{
-    background-color: black;
-    height: 225px;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
 }
 nav ul .menupied li{
     list-style-type: none;
@@ -241,7 +200,7 @@ ul .menupied li a:hover{
     color:orange;
     text-decoration: underline;
 }
-h6{
+p.auteur{
     color: antiquewhite;
     text-align: left;
     margin-top: -135px;
