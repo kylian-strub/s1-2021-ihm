@@ -21,6 +21,7 @@ Notre objectif est de réussir à présenter, au mieux, cette entreprise. Pour s
 - Engagements, qui regroupe des informations concernant les engagements écologiques de l'entreprise et en particulier le projet Net Zero Carbone.
 - Histoire, qui contient des informations sur les événements marquant de l'entrerise à l'aide d'une frise chronologique.
 - A propos, qui présente le personnel.
+
 Nous désirons réaliser un site bien construit avec une réelle identité graphique qui en ressort.
 Cette dernière sera d’ailleurs basée sur des thèmes modernes, aérés et épurés.
 Cela donne donc un site complet mais aussi facile d’utilisation où on ne s’y perd pas comme dans certains sites qui nous submerge d’informations.
