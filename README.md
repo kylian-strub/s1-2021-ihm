@@ -2,7 +2,7 @@
 
 ## Orange    
 
-[Lien du site sur l'entreprise Orange][(https://kylian-strub.github.io/s1-2021-ihm/)]
+[Lien du site sur l'entreprise Orange](https://kylian-strub.github.io/s1-2021-ihm/)
 
 ## Membres du groupe :
 
