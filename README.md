@@ -1,14 +1,8 @@
-readme# s1-2021-ihm
-
-Référent : "Kylian STRUB" <kylian.strub@edu.univ-fcomte.fr>; 
-
-Groupe 1: "Vince HURTAULT" <vince.hurtault@edu.univ-fcomte.fr>;  "Tim CARRARA" <tim.carrara@edu.univ-fcomte.fr>; "Armand MAILLARD" <armand.maillard@edu.univ-fcomte.fr>; "Kylian STRUB" <kylian.strub@edu.univ-fcomte.fr>; 
-
 # SAE_1_05_06
 
 ## Orange    
 
-[Lien du site sur l'entreprise Orange](https://login.github.io/projet/)
+[Lien du site sur l'entreprise Orange]([https://login.github.io/projet/](https://kylian-strub.github.io/s1-2021-ihm/))
 
 ## Membres du groupe :
 
