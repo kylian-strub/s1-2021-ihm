@@ -1,4 +1,4 @@
-# SAE_1_05_06
+   # SAE_1_05_06
 
 ## Site sur l'entreprise Orange    
 
@@ -13,4 +13,5 @@ Etudiant 4 : [Vince HURTAULT](mailto:vince.hurtault@edu.univ-fcomte.fr?subject=S
 
 # Présentation du projet
 
-...... (5/6 lignes)
+Dans notre projet, nous avons créer un site web dédié à Orange, une entreprise leader dans le domaine des télécommunications. 
+Notre objectif est de réussir à présenter, au mieux, cette entreprise. Pour se faire, nous organiserons notre site en 
