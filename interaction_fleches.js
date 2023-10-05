@@ -1,4 +1,4 @@
-const slide = ["IMAGE/Image actu 1.jpg", "IMAGE/image_actu_2.jpg", "IMAGE/Image actu 3.jpg"];
+const slide = ["IMAGE/ImageActu 1.jpg", "IMAGE/image_actu_2.jpg", "IMAGE/Image actu 3.jpg"];
 let numero = 0;
 
 function ChangeSlide(sens) {
