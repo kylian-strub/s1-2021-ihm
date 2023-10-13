@@ -18,7 +18,7 @@ Notre objectif est de réussir à présenter, au mieux, cette entreprise. Pour s
 - Actualités, qui montre les dernières actualités et informations concernant l'entreprise.
 - Contacter, qui regroupe les contact et différents réseaux sociaux de l'entreprise.
 - Economie, qui présente des informations et des statistiques qui présentent l'entreprise sur le plan économique.
-- Engagements, qui regroupe des informations concernant les engagements écologiques de l'entreprise et en particulier le projet Net Zero Carbone.
+- Engagements, qui regroupe des informations concernant les activités de l'entreprise et des engagements qui y sont liés
 - Histoire, qui contient des informations sur les événements marquant de l'entrerise à l'aide d'une frise chronologique.
 - A propos, qui présente le personnel.
 
