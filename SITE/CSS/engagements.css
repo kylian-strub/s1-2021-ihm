@@ -68,6 +68,7 @@ h1 {
     /* titre principale */
     color:antiquewhite;
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -78,8 +79,7 @@ h2 {
     /* titre secondaire */
     color:antiquewhite;
     text-align: center;
-    
-
+    font-family: 'Inclusive sans', sans-serif;
 }
 
 h3 {
@@ -87,11 +87,9 @@ h3 {
     color:antiquewhite;
     text-align: center;
     margin: 0, auto;
-    
-
-
-
+    font-family: 'Arial', sans-serif;
 }
+
 
 
 
@@ -176,6 +174,7 @@ h3 {
 
 
 .textePays1 {
+    position: absolute;
     text-align: left;
     margin-top: -250px;
     color:rgb(255, 255, 255);
@@ -185,7 +184,37 @@ h3 {
     word-spacing: 1px;
 }
 
-.textePays {
+.textePays2 {
+    position: absolute;
+    margin-top: -150px;
+
+    text-align: left;
+
+    color:rgb(255, 255, 255);
+    margin-left: 600px;
+    margin-right: 30px;
+    font-size: 20px;
+    word-spacing: 1px;
+}
+
+.textePays3 {
+    position: absolute;
+    margin-top: -50px;
+
+    text-align: left;
+
+    color:rgb(255, 255, 255);
+    margin-left: 600px;
+    margin-right: 30px;
+    font-size: 20px;
+    word-spacing: 1px;
+}
+
+
+.textePays4 {
+    position: absolute;
+    margin-top: -75px;
+
     text-align: left;
 
     color:rgb(255, 255, 255);
