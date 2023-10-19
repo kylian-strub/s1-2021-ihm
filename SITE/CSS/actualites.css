@@ -53,6 +53,107 @@ body{
 
 
 
+
+
+
+.flexbox1 {
+    
+    height: 400px;
+    width: 90%;
+    background: rgb(255, 162, 0);
+    border-radius: 120px;
+    margin: 0 auto;
+    border: 3px   solid  #000000;
+
+
+    
+    /* Centrer un unique éléments vertcialement et horizontalement */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+   /* titre principale */
+   color:antiquewhite;
+   text-align: center;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    /* titre secondaire */
+    color:antiquewhite;
+    text-align: center;
+    font-family: 'Inclusive sans', sans-serif;
+}
+
+h3 {
+    /* texte de corprs */
+    color:antiquewhite;
+    text-align: center;
+    margin: 0, auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.titrePrincipale {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+
+}
+.textePrincipale {
+    font-size: 22px;
+    margin-left: 10px;
+    margin-right: 23px;
+}
+
+
+
+
+
+
+.trait{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+
+.flex-container {
+    display: flex; /* Utilisez Flexbox pour aligner les éléments horizontalement */
+    justify-content: space-between; /* Répartit l'espace disponible également entre les éléments */
+    align-items: center; /* Centre les éléments verticalement dans le conteneur */
+  }
+
+.flexbox2 {
+    
+    height: 500px;
+    width: 500px;
+    background: rgb(255, 162, 0);
+    border-radius: 120px;
+    margin: 0 auto;
+    border: 3px   solid  #000000;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 10px;
+
+
+
+    
+    /* Centrer un unique éléments vertcialement et horizontalement */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+
+
+
+
+
+
+
 footer{
     background-color: black;
     height: auto;
