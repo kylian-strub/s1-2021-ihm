@@ -119,7 +119,7 @@ body {
     border: 1px solid black;
 }
 .graphique{
-    /* transition: transform .2s; */
+    transition: transform .2s;
     position:absolute;
     height:160px;
     width:auto;
@@ -148,7 +148,7 @@ body {
     border: 1px solid black;
 }
 .thierry{
-    /* transition: transform .2s; */
+    transition: transform .2s;
     position:absolute;
     height:250px;
     width:auto;
