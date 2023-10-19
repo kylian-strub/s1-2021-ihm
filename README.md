@@ -15,12 +15,27 @@ Etudiant 4 : [Vince HURTAULT](mailto:vince.hurtault@edu.univ-fcomte.fr?subject=S
 
 Dans notre projet, nous avons créer un site web dédié à Orange, une entreprise leader dans le domaine des télécommunications. 
 Notre objectif est de réussir à présenter, au mieux, cette entreprise. Pour se faire, nous organiserons notre site en 7 pages différentes :
-- Actualités, qui montre les dernières actualités et informations concernant l'entreprise.
-- Contacter, qui regroupe les contact et différents réseaux sociaux de l'entreprise.
-- Economie, qui présente des informations et des statistiques qui présentent l'entreprise sur le plan économique.
-- Engagements, qui regroupe des informations concernant les activités de l'entreprise et des engagements qui y sont liés
-- Histoire, qui contient des informations sur les événements marquant de l'entrerise à l'aide d'une frise chronologique.
-- A propos, qui présente le personnel.
+# Acceuil
+Auteur : CARRARA Tim
+Contenu : Présente l'aspect général du site, en effet, elle est la page de couverture de notre projet qui renvoie aussi sur les autres pages.
+# Actualités
+Auteur : 
+Contenu : Montre les dernières actualités et informations concernant l'entreprise.
+# Contacter
+Auteur : 
+Contenu : regroupe les contact et différents réseaux sociaux de l'entreprise.
+# Economie
+Auteur : 
+Contenu : Présente des informations et des statistiques qui présentent l'entreprise sur le plan économique.
+# Engagements
+Auteur : STRUB Kylian
+Contenu : Regroupe des informations concernant les activités de l'entreprise et des engagements qui y sont liés
+# Histoire
+Auteur : MAILLARD Armand 
+Contenu : Contient des informations sur les événements marquant de l'entrerise à l'aide d'une frise chronologique.
+# A propos
+Auteur : 
+Contenu : Présente le personnel..
 
 Nous désirons réaliser un site bien construit avec une réelle identité graphique qui en ressort.
 Cette dernière sera d’ailleurs basée sur des thèmes modernes, aérés et épurés.
