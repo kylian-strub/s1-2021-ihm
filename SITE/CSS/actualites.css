@@ -3,6 +3,11 @@
     padding:0px;
     box-sizing: border-box;
 }
+body{
+    margin:0px;
+    padding:0px;
+    background:linear-gradient(rgba(177, 83, 6, 0.474), rgba(255, 166, 0, 0.693), rgba(255, 68, 0, 0.605))
+}
 .logo img{
     position:relative;
     width: 105px;
