@@ -392,31 +392,56 @@ h3 {
 
 
 
-
-
-.menupied{
-    margin-top: 100px;
-    height: 200px;
-    background: black;
+footer{
+    background-color: black;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
 }
-.menupied a{
-    list-style-type: none;
-    display: inline-block;
+.contenu-footer{
+    width: 100%;
+    padding:10px;
+}
+.menu-reseau{
+    display: flex;
+    justify-content: center;
+}
+.menu-reseau a{
     text-decoration: none;
-    font-size: 15px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 50%;
+}
+.menu-reseau a i{
+    font-size: 2em;
     color: white;
-    margin-top: 100px;
-    margin-left: 100px;
+    opacity: 0.9;
 }
-.menupied a:hover{
-    color:orange;
-    text-decoration: underline;
+.menu-footer{
+    margin: 30px;
 }
-
-p.auteur{
-    color: antiquewhite;
-    text-align: left;
-    margin-top: -40px;
-    margin-left: 40px;
+.menu-footer ul{
+    display: flex;
+    justify-content: center;
+}
+.menu-footer ul li a{
+    color:white;
+    margin:20px;
+    text-decoration: none;
+    font-size:1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.menu-footer ul li a:hover{
+    opacity:1
+}
+.bas-footer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.bas-footer{
+    color: white;
     font-size: 20px;
 }
