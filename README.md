@@ -52,7 +52,7 @@ Auteur : STRUB Kylian
 <br>
 Contenu : Regroupe des informations concernant les activités de l'entreprise et des engagements qui y sont liés.
 <br>
-[Lien W3C](LIEN)
+[Lien W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylian-strub.github.io%2Fs1-2023-ihm%2FSITE%2FHTML%2Fengagements.html)
 <br>
 <img src="doc/capture_4_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## Histoire
