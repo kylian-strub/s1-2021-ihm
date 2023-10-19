@@ -10,41 +10,56 @@ body {
 
 
 
-.menu1{
-    width: 100%;
-    overflow: hidden;
-    background: black;
-}
-.menu1 ul{
+*{
+    margin: 0;
     padding:0px;
-    margin: 0 0 0 125px;
-    list-style-type: none;
+    box-sizing: border-box;
 }
 .logo img{
-    position:absolute;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 105px
+    position:relative;
+    width: 105px;
+    margin-top: 5px;
 }
-.menu1 li{
-    float:left ;
+.menu1{
+    position:fixed;
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    align-items: center;
+    z-index: 100;
+    width: 100%;
+    top:0;
+    left:0
 }
-.menu1 li a{
-    list-style-type: none;
+.menu1 ul li{
     display: inline-block;
-    text-decoration: none;
-    padding: 37px 51px;
+    list-style: none;
+    position: relative;
+}
+.menu1 ul li a{
+    padding: 25px;
+    margin-right: 8px;
     font-size: 20px;
-    text-align: center;
-    color: white;
-    border-bottom: 1px solid black;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
 }
-.menu1 li a:hover{
-    color:orange;
-    border-bottom: 1px solid orange;
+.menu1 ul li::after{
+    content:'';
+    bottom: -10px;
+    transition: 0.3s;
+    background: orange;
+    width:0;
+    height:3px;
+    position: absolute;
+    left:0;
 }
-.menu1 li .current{
-    color:#ff6600;
+.menu1 ul li:hover::after{
+    width:100%;
+}
+.menu1 ul li a:hover{
+    color: orange;
 }
 
 
