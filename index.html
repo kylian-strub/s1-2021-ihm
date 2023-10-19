@@ -3,20 +3,19 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index2.css">
     <script src="interaction_fleches.js"></script>
     <title>Orange | Accueil</title>
-    <link rel="shortcut icon" href="IMAGE/icone-orange.png">
+    <link rel="icon" type="image/x-icon" href="icone-orange.png">
 
 </head>
 <body>
     <header>
-        <div class="logo">
-            <a href="index.html"><img src="https://tous-logos.com/wp-content/uploads/2017/07/logo-Orange.png" alt="image"></a>
-        </div>
-
         <nav class="menu1">
+            <div class="logo">
+                <a href="index.html"><img src="https://tous-logos.com/wp-content/uploads/2017/07/logo-Orange.png" alt="image"></a>
+            </div>
             <ul>
                 <li><a href="SITE/HTML/histoire.html"> Notre Histoire </a></li>
                 <li><a href="SITE/HTML/economie.html"> Notre Economie </a></li>
@@ -27,6 +26,8 @@
             </ul>
         </nav>
     </header>
+
+    <div class="fond1"></div>
 
         <div class="image1">
             <img src="https://boutique.orange.fr/informations/medias/img/325x453-marque-orange-acq-forfait.jpg" alt="image" style="width:160px">
@@ -40,32 +41,39 @@
             <img src="https://img.android.com.pl/images/user-images/2017/12/iPhone-senior.jpg" alt="image" style="width:250px">
         </div>
             
-        <p class="bienvenue">Bienvenue Chez Orange</p>
-        <p class="slogan">Vous rapprocher de l'essentiel</p>
+        <div class="titre">
+            <h1>Bienvenue Chez Orange</h1>
+            <p>Vous rapprocher de l'essentiel</p>
+        </div>
 
+    <div class="fond2">
         <div class="trait1">
             <hr>
         </div>
-        
-        <p class="HistoireTitre">1. Notre Histoire</p>
-        <p class="HistoireText">Unde Rufinus ea tempestate praefectus praetorio ad discrimen more in ordinarias dignitates asperum semper (<a href="SITE/HTML/histoire.html"> en savoir plus </a>)</p>
+    
+        <div class="Histoire">
+            <h2>1. Notre Histoire</h2>
+            <p>Unde Rufinus ea tempestate praefectus praetorio ad discrimen more in ordinarias dignitates asperum semper (<a href="SITE/HTML/histoire.html"> en savoir plus </a>)</p>
+        </div>
 
         <div class="image4">
             <a href="SITE/HTML/histoire.html"><img src="IMAGE/telephone.png" alt="image" style="transform: rotate(-35deg)"></a>
         </div>
 
-        <p class="EconomieTitre">2. Notre Economie</p>
-
-        <p class="EconomieText">Contempto Caesare, quem videri, decuerat, ad praetorium cum pompa sollemni perrexit morbosque diu causatus nec regiam ( <a href="SITE/HTML/economie.html"> en savoir plus </a> )</p>
+        <div class="Economie">
+            <h2>2. Notre Economie</h2>
+            <p>Contempto Caesare, quem videri, decuerat, ad praetorium cum pompa sollemni perrexit morbosque diu causatus nec regiam ( <a href="SITE/HTML/economie.html"> en savoir plus </a> )</p>
+        </div>
 
          <div class="image5">
             <a href="SITE/HTML/economie.html"><img src="IMAGE/Bourse.png" alt="image"></a>
         </div>
 
 
-        <p class="EngagementsTitre">3. Nos Engagements</p>
-
-        <p class="EngagementsText">  Itaque tum Scaevola cum in eam ipsam mentionem incidisset exposuit nobis sermonem Laeli de amicitia ( <a href="SITE/HTML/engagements.html"> en savoir plus </a> )</p>
+        <div class="Engagements">
+            <h2>3. Nos Engagements</h2>
+            <p>Itaque tum Scaevola cum in eam ipsam mentionem incidisset exposuit nobis sermonem Laeli de amicitia ( <a href="SITE/HTML/engagements.html"> en savoir plus </a> )</p>
+        </div>
 
 
         <div class="image6">
@@ -76,29 +84,42 @@
         <hr>
         </div>
 
-        <p class="Actualites">Nos Actualités :</p>
+        <p class="Actualites">Nos Actualités</p>
             <div id="slider">
-                <img src="IMAGE/ImageActu1.jpg" alt="1ere actu" id="slide">
+                <img src="ImageActu1.jpg" alt="1ere actu" id="slide">
                 <p class="legende legende1 active"><strong>Câbles sous-marins :</strong> Orange renouvelle sa flotte avec un nouveau navire, le "Sophie Germain" <a href="SITE/HTML/actualites.html">lire plus...</a></p>
                 <p class="legende legende2"><strong>Développement durable :</strong> Orange et Centre Morbihan communauté lancent une collecte de mobiles usagés jusqu'au 26 novembre <a href="SITE/HTML/actualites.html">lire plus...</a></p>
                 <p class="legende legende3"><strong>Séisme d'Al Haouz :</strong> Détails des actions entreprises par Orange Maroc pour venir en aide aux victimes <a href="SITE/HTML/actualites.html">lire plus...</a></p>
-                <div id="precedent" onclick="ChangeSlide(-1)">&lt;</div>
-                <div id="suivant" onclick="ChangeSlide(1)">&gt;</div>
+                <div id="precedent" onclick="ChangeSlide(-1)"><img src="fleches gauches.png" style="width:50px"></div>
+                <div id="suivant" onclick="ChangeSlide(1)"><img src="fleches droites.png" style="width:50px"></div>
             </div>
+    </div>
 
         <footer>
-            <nav class="menupied">
-                <ul>
-                    <a href="SITE/HTML/histoire.html"> Notre Histoire </a>
-                    <a href="SITE/HTML/economie.html"> Notre Economie </a>
-                    <a href="SITE/HTML/engagements.html"> Nos Engagements </a>
-                    <a href="SITE/HTML/actualites.html"> Nos Actualités </a>
-                    <a href="SITE/HTML/propos.html"> A Propos </a>
-                    <a href="SITE/HTML/contacter.html"> Nous Contacter </a>
-                </ul>
-            </nav>
+            <div class="contenu-footer">
+                <div class="menu-reseau">
+                    <a href=""><img src="instagram logo.png" style="width:50px"></a>
+                    <a href=""><img src="TikTok logo.png" style="width:50px"></a>
+                    <a href=""><img src="Pinterest logo.png" style="width:50px"></a>
+                    <a href=""><img src="facebook logo.png" style="width:50px"></a>
+                </div>
 
-            <p class="auteur">© Groupe 1 / S1A1-2</p>
+                <div class="menu-footer">
+                    <ul>
+                        <li><a href="SITE/HTML/histoire.html"> Notre Histoire </a></li>
+                        <li><a href="SITE/HTML/economie.html"> Notre Economie </a></li>
+                        <li><a href="SITE/HTML/engagements.html"> Nos Engagements </a></li>
+                        <li><a href="SITE/HTML/actualites.html"> Nos Actualités </a></li>
+                        <li><a href="SITE/HTML/propos.html"> A Propos </a></li>
+                        <li><a href="SITE/HTML/contacter.html"> Nous Contacter </a></li>
+                    </ul>
+                </div>
+            
+                <div class="bas-footer">
+                    <p>© Groupe 1 / S1A1-2</p>
+                </div>
+            </div>
+        
         </footer>
 </body>
 </html>
