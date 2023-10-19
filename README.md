@@ -22,7 +22,7 @@ Contenu : Présente l'aspect général du site, en effet, elle est la page de co
 <br>
 [Lien W3C](LIEN)
 <br>
-
+<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## Actualités
 Auteur : 
 <br>
@@ -30,7 +30,7 @@ Contenu : Montre les dernières actualités et informations concernant l'entrepr
 <br>
 [Lien W3C](LIEN)
 <br>
-
+<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## Contacter
 Auteur : 
 <br>
@@ -38,7 +38,7 @@ Contenu : regroupe les contact et différents réseaux sociaux de l'entreprise.
 <br>
 [Lien W3C](LIEN)
 <br>
-
+<img src="doc/capture_2_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## Economie
 Auteur : 
 <br>
@@ -46,7 +46,7 @@ Contenu : Présente des informations et des statistiques qui présentent l'entre
 <br>
 [Lien W3C](LIEN)
 <br>
-
+<img src="doc/capture_3_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## Engagements
 Auteur : STRUB Kylian
 <br>
@@ -54,7 +54,7 @@ Contenu : Regroupe des informations concernant les activités de l'entreprise et
 <br>
 [Lien W3C](LIEN)
 <br>
-
+<img src="doc/capture_4_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## Histoire
 Auteur : MAILLARD Armand 
 <br>
@@ -62,7 +62,7 @@ Contenu : Contient des informations sur les événements marquant de l'entrerise
 <br>
 [Lien W3C](LIEN)
 <br>
-
+<img src="doc/capture_5_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## A propos
 Auteur : 
 <br>
@@ -70,7 +70,7 @@ Contenu : Présente le personnel.
 <br>
 [Lien W3C](LIEN)
 <br>
-
+<img src="doc/capture_6_W3C.png" width="400px" alt="capture ecran sur w3c">
 # Conclusion
 
 Nous désirons réaliser un site bien construit avec une réelle identité graphique qui en ressort.
