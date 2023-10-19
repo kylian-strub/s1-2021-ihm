@@ -1,9 +1,13 @@
-body{
-    margin:0px;
+*{
+    margin: 0;
     padding:0px;
-    background-color: black;
+    box-sizing: border-box;
 }
-
+.logo img{
+    position:relative;
+    width: 105px;
+    margin-top: 5px;
+}
 .menu1{
     display:flex;
     justify-content: space-between;
@@ -40,8 +44,4 @@ body{
 }
 .menu1 ul li a:hover{
     color: orange;
-}
-
-h3 {
-    color:antiquewhite;
 }
