@@ -31,3 +31,41 @@ body{
     padding:0px;
     background-color: black;
 }
+
+.menu1{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.menu1 ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+.menu1 ul li a{
+    padding: 25px;
+    margin-right: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+}
+.menu1 ul li::after{
+    content:'';
+    bottom: -10px;
+    transition: 0.3s;
+    background: orange;
+    width:0;
+    height:3px;
+    position: absolute;
+    left:0;
+}
+.menu1 ul li:hover::after{
+    width:100%;
+}
+.menu1 ul li a:hover{
+    color: orange;
+}
