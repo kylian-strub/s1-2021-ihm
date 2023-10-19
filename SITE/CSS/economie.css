@@ -1,3 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background:white;
+}
+
+
 *{
     margin: 0;
     padding:0px;
@@ -45,15 +56,74 @@
 .menu1 ul li a:hover{
     color: orange;
 }
-
-
-
-h1 {
-    color:antiquewhite;
+.menu1 li .current{
+    color:#ff6600;
 }
-h2 {
-    color:antiquewhite;
+
+
+
+.titre{
+    font-size: 40px;
+    margin-left:30px;
 }
-h3 {
-    color:antiquewhite;
+.intro{
+    font-size:20px;
+    margin-left:70px;
+}
+
+
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+}
+  
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+  
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+  
+.active:after {
+    content: "\2212";
+}
+  
+.panel {
+    padding: 0 18px;
+    background-color: rgb(241, 241, 241);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-size:17px;
+}
+.chiffres{
+    text-align:center;
+}
+.croissance{
+    margin-left:40px;
+}
+
+
+
+.copyright {
+    color: antiquewhite;
+    text-align: center;
+    margin-top: -40px;
+    font-size: 20px;
+    background-color: black;
+    padding-bottom:14%;
 }
