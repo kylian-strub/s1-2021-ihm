@@ -16,7 +16,7 @@ Etudiant 4 : [Vince HURTAULT](mailto:vince.hurtault@edu.univ-fcomte.fr?subject=S
 Dans notre projet, nous avons créer un site web dédié à Orange, une entreprise leader dans le domaine des télécommunications. 
 Notre objectif est de réussir à présenter, au mieux, cette entreprise. Pour se faire, nous organiserons notre site en 7 pages différentes :
 ## Acceuil
-Auteur : CARRARA Tim.
+Auteur : CARRARA Tim
 <br>
 Contenu : Présente l'aspect général du site, en effet, elle est la page de couverture de notre projet qui renvoie aussi sur les autres pages.
 <br>
@@ -24,7 +24,7 @@ Contenu : Présente l'aspect général du site, en effet, elle est la page de co
 <br>
 <img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## Actualités
-Auteur : 
+Auteur : HURTAULT Vince
 <br>
 Contenu : Montre les dernières actualités et informations concernant l'entreprise.
 <br>
@@ -32,7 +32,7 @@ Contenu : Montre les dernières actualités et informations concernant l'entrepr
 <br>
 <img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## Contacter
-Auteur : 
+Auteur : CARRARA Tim
 <br>
 Contenu : regroupe les contact et différents réseaux sociaux de l'entreprise.
 <br>
@@ -40,7 +40,7 @@ Contenu : regroupe les contact et différents réseaux sociaux de l'entreprise.
 <br>
 <img src="doc/capture_2_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## Economie
-Auteur : 
+Auteur : MAILLARD Armand
 <br>
 Contenu : Présente des informations et des statistiques qui présentent l'entreprise sur le plan économique.
 <br>
@@ -64,7 +64,7 @@ Contenu : Contient des informations sur les événements marquant de l'entrerise
 <br>
 <img src="doc/capture_5_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## A propos
-Auteur : 
+Auteur : HURTAULT Vince
 <br>
 Contenu : Présente le personnel.
 <br>
