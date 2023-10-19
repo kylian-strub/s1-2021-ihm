@@ -217,7 +217,7 @@ p.Actualites{
       background-color: black;
       opacity: 0;
       transition: opacity 0.3s;
-      padding: 15px;
+      padding: 10px;
 }
 #precedent {
     left: 0;
