@@ -3,39 +3,47 @@ body{
     padding:0px;
     background:linear-gradient(rgba(177, 83, 6, 0.474), rgba(255, 166, 0, 0.693), rgba(255, 68, 0, 0.605))
 }
-.menu1{ 
-    width: 100%;
-    overflow: hidden;
-    background: black;
-}
-.menu1 ul{
-    padding:0px;
-    margin: 0 0 0 125px;
-    list-style-type: none;
-}
 .logo img{
-    position:absolute;
-    margin-top: 11px;   
-    margin-left: 10px;
+    position:relative;
     width: 105px;
-
+    margin-top: 5px;
 }
-.menu1 li{
-    float:left ;
+.menu1{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid white;
 }
-.menu1 li a{
-    list-style-type: none;
+.menu1 ul li{
     display: inline-block;
-    text-decoration: none;
-    padding: 37px 51px;
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    border-bottom: 1px solid black;
+    list-style: none;
+    position: relative;
 }
-.menu1 li a:hover{
-    color:orange;
-    border-bottom: 1px solid orange;
+.menu1 ul li a{
+    padding: 25px;
+    margin-right: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+}
+.menu1 ul li::after{
+    content:'';
+    bottom: -10px;
+    transition: 0.3s;
+    background: orange;
+    width:0;
+    height:3px;
+    position: absolute;
+    left:0;
+}
+.menu1 ul li:hover::after{
+    width:100%;
+}
+.menu1 ul li a:hover{
+    color: orange;
 }   
 
 
