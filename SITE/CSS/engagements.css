@@ -53,14 +53,20 @@ body{
 
 
 
+
 .flexbox {
     
      height: 500px;
-     width: 200vh;
+     width: 90%;
      background: rgb(255, 162, 0);
      border-radius: 120px;
      margin: 0 auto;
      box-shadow: 0px 0px 20px 5px #fc9000;
+
+
+     
+     /* Centrer un unique éléments vertcialement et horizontalement */
+     /* display: flex; */
      justify-content: center;
      align-items: center;
 }
@@ -95,7 +101,6 @@ h3 {
 
 
 
-
 .titrePrincipale {
     margin-top: 10px;
     text-transform: uppercase;
@@ -104,7 +109,7 @@ h3 {
 }
 .textePrincipale {
     font-size: 22px;
-    margin-left: -10px;
+    margin-left: 10px;
     margin-right: 23px;
 }   
 
@@ -129,10 +134,11 @@ h3 {
 
 }
 
-.image1 img {
+.image1 {
     margin-left: 50px;
     border-radius: 10px;
     border: 3px solid  #000000;
+    
 
 }
 
@@ -157,7 +163,6 @@ h3 {
 }
 
 .image2 img{
-    /* position: absolute; */
     margin-top: 0px;
     margin-left: 50px;
     border-radius: 50px;
@@ -227,7 +232,6 @@ h3 {
     word-spacing: 1px;
 }
 
-
 .connexion{
     background-color: rgb(255, 132, 0);
     margin-top: 100px;
@@ -267,7 +271,7 @@ h3 {
 
 .image3 img{
     position: absolute;
-    margin-left: 1100px;
+    margin-left: 70%;
     margin-top: -220px;
     width: 300px;
     transition: 0.3s;
@@ -345,7 +349,7 @@ h3 {
 }
 
 .image4 {
-    margin-left: 1100px;
+    margin-left: 70%;
     border-radius: 10px;
     border: 3px solid  #ffffff;
     margin-top: -400px;
@@ -367,15 +371,6 @@ h3 {
     border: 3px solid  #000000;
     margin-top: -400px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
