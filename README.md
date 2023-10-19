@@ -28,7 +28,7 @@ Auteur : HURTAULT Vince
 <br>
 Contenu : Montre les dernières actualités et informations concernant l'entreprise.
 <br>
-[Lien W3C](LIEN)
+[Lien W3C]](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylian-strub.github.io%2Fs1-2023-ihm%2FSITE%2FHTML%2Factualites.html)
 <br>
 <img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## Contacter
@@ -36,7 +36,7 @@ Auteur : CARRARA Tim
 <br>
 Contenu : regroupe les contact et différents réseaux sociaux de l'entreprise.
 <br>
-[Lien W3C](LIEN)
+[Lien W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylian-strub.github.io%2Fs1-2023-ihm%2FSITE%2FHTML%2Fcontacter.html)
 <br>
 <img src="doc/capture_2_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## Economie
@@ -44,7 +44,7 @@ Auteur : MAILLARD Armand
 <br>
 Contenu : Présente des informations et des statistiques qui présentent l'entreprise sur le plan économique.
 <br>
-[Lien W3C](LIEN)
+[Lien W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylian-strub.github.io%2Fs1-2023-ihm%2FSITE%2FHTML%2Feconomie.html)
 <br>
 <img src="doc/capture_3_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## Engagements
@@ -60,7 +60,7 @@ Auteur : MAILLARD Armand
 <br>
 Contenu : Contient des informations sur les événements marquant de l'entrerise à l'aide d'une frise chronologique.
 <br>
-[Lien W3C](LIEN)
+[Lien W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylian-strub.github.io%2Fs1-2023-ihm%2FSITE%2FHTML%2Fhistoire.html)
 <br>
 <img src="doc/capture_5_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## A propos
@@ -68,7 +68,7 @@ Auteur : HURTAULT Vince
 <br>
 Contenu : Présente le personnel.
 <br>
-[Lien W3C](LIEN)
+[Lien W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylian-strub.github.io%2Fs1-2023-ihm%2FSITE%2FHTML%2Fpropos.html)
 <br>
 <img src="doc/capture_6_W3C.png" width="400px" alt="capture ecran sur w3c">
 # Conclusion
