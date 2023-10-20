@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+.body {
     margin: 0px;
     padding: 0px;
     background: linear-gradient(rgba(177, 83, 6, 0.474), rgba(255, 166, 0, 0.693), rgba(255, 68, 0, 0.605))
@@ -208,7 +208,7 @@ h3 {
 
 
 
-footer {
+.footer {
     background-color: black;
     height: auto;
     width: 100%;
