@@ -1,11 +1,11 @@
 @font-face{
     font-family: "Ubuntu";
-    src:url("/Ubuntu/Ubuntu-Regular.ttf") format("open-type");
+    src:url("/typographie/Ubuntu-Regular.ttf") format("open-type");
 }
 
 @font-face{
     font-family: "Inclusive Sans";
-    src:url("/Inclusive_Sans/InclusiveSans-Regular.ttf") format("open-type");
+    src:url("/typographie/InclusiveSans-Regular.ttf") format("open-type");
 }
 *{
     margin: 0;
