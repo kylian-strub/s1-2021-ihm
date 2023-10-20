@@ -1,7 +1,16 @@
+@font-face{
+    font-family: "Ubuntu";
+    src:url("/Ubuntu/Ubuntu-Regular.ttf") format("open-type");
+}
+
+@font-face{
+    font-family: "Inclusive Sans";
+    src:url("/Inclusive_Sans/InclusiveSans-Regular.ttf") format("open-type");
+}
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Ubuntu";
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
