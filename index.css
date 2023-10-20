@@ -66,10 +66,10 @@
     color:orange;
     text-align: center;
     margin-top: 12%;
-    margin-left: 0;
+    margin-left: 30%;
     font-size: 50px;
     position:absolute;
-    font-family: "Ubuntu";
+    font-family: 'Ubuntu';
 }
 .titre p{
     color:orange;
