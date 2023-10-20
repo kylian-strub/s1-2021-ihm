@@ -26,10 +26,6 @@ body {
     padding: 10px;
     align-items: center;
     border-bottom: 1px solid white;
-    z-index: 100;
-    top:0;
-    left:0;
-    position: fixed;
 }
 .menu1 ul li{
     display: inline-block;
