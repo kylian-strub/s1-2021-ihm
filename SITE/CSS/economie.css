@@ -70,7 +70,7 @@ body {
 
 
 .accordion {
-    background-color: white;
+    background-color: orange;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -83,7 +83,7 @@ body {
 }
   
 .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #black;
 }
   
 .accordion:after {
