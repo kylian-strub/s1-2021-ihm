@@ -5,7 +5,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../CSS/actualites.css">
+    <link rel="stylesheet" type="text/css" href="actualites.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Orange | Actualités</title>
     <link rel="icon" type="image/x-icon" href="icone-orange.png">
@@ -20,12 +21,12 @@
                         alt="image"></a>
             </div>
             <ul>
-                <a href="histoire.html"> Notre Histoire </a></li>
-                <a href="economie.html"> Notre Économie </a></li>
-                <a href="engagements.html"> Nos Engagements </a></li>
-                <a href="actualites.html"> Nos Actualités </a></li>
-                <a href="propos.html"> À Propos </a></li>
-                <a href="contacter.html"> Nous Contacter </a></li>
+                <li data-aos="fade-down" data-aos-delay="300"><a href="histoire.html"> Notre Histoire </a></li>
+                <li data-aos="fade-down" data-aos-delay="600"><a href="economie.html"> Notre Économie </a></li>
+                <li data-aos="fade-down" data-aos-delay="900"><a href="engagements.html"> Nos Engagements </a></li>
+                <li data-aos="fade-down" data-aos-delay="1200"><a href="actualites.html"> Nos Actualités </a></li>
+                <li data-aos="fade-down" data-aos-delay="1500"><a href="propos.html"> À Propos </a></li>
+                <li data-aos="fade-down" data-aos-delay="1800"><a href="contacter.html"> Nous Contacter </a></li>
             </ul>
         </nav>
     </header>
@@ -209,7 +210,10 @@
     </footer>
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
