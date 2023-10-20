@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
 body{
     margin:0px;
     padding:0px;
@@ -33,6 +37,7 @@ body{
     text-decoration: none;
     color:white;
     text-transform: uppercase;
+    font-family: "Ubuntu"
 }
 .menu1 ul li::after{
     content:'';
@@ -84,7 +89,7 @@ h1 {
     /* titre principale */
     color:antiquewhite;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu";
 }
 
 
@@ -95,7 +100,7 @@ h2 {
     /* titre secondaire */
     color:antiquewhite;
     text-align: center;
-    font-family: 'Inclusive sans', sans-serif;
+    font-family: "Inclusive sans";
 }
 
 h3 {
@@ -103,7 +108,7 @@ h3 {
     color:antiquewhite;
     text-align: center;
     margin: 0, auto;
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
