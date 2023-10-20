@@ -19,7 +19,7 @@ body{
     background-color: black;
     padding: 10px;
     align-items: center;
-    width: 100%;
+    border-bottom: 1px solid white;
     z-index: 100;
     top:0;
     left:0;
@@ -37,7 +37,6 @@ body{
     text-decoration: none;
     color:white;
     text-transform: uppercase;
-    font-family: "Ubuntu";
 }
 .menu1 ul li::after{
     content:'';
@@ -54,7 +53,7 @@ body{
 }
 .menu1 ul li a:hover{
     color: orange;
-}  
+}
 
 
 
