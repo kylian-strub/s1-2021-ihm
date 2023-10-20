@@ -42,6 +42,7 @@ body {
     text-decoration: none;
     color:white;
     text-transform: uppercase;
+    font-family:"Ubuntu"
 }
 .menu1 ul li::after{
     content:'';
