@@ -307,6 +307,7 @@ footer{
     font-size:1.3em;
     opacity: 0.7;
     transition: 0.5s;
+    font-family:"Inclusive-sans"
 }
 .menu-footer ul li a:hover{
     opacity:1
