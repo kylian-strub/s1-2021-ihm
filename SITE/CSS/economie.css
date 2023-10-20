@@ -7,8 +7,6 @@ body {
     background-attachment: fixed;
     background:white;
 }
-
-
 *{
     margin: 0;
     padding:0px;
@@ -56,9 +54,7 @@ body {
 .menu1 ul li a:hover{
     color: orange;
 }
-.menu1 li .current{
-    color:#ff6600;
-}
+
 
 
 
