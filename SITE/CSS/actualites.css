@@ -139,7 +139,6 @@ footer{
     font-size:1.3em;
     opacity: 0.7;
     transition: 0.5s;
-    font-family:"Ubuntu"
 }
 .menu-footer ul li a:hover{
     opacity:1
@@ -152,5 +151,4 @@ footer{
 .bas-footer{
     color: white;
     font-size: 20px;
-    font-family:Arial, Helvetica, sans-serif
 }
