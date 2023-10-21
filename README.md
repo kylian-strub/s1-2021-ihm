@@ -30,7 +30,7 @@ Contenu : Montre les dernières actualités et informations concernant l'entrepr
 <br>
 [Lien W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkylian-strub.github.io%2Fs1-2023-ihm%2FSITE%2FHTML%2Factualites.html)
 <br>
-<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur w3c">
+<img src="doc/capture_7_W3C.png" width="400px" alt="capture ecran sur w3c">
 ## Contacter
 Auteur : CARRARA Tim
 <br>
