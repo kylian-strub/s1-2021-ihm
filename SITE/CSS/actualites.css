@@ -71,7 +71,7 @@ body {
 
 .flexbox1 {
 
-    height: 400px;
+    height: 200px;
     width: 90%;
     background: rgb(255, 162, 0);
     border-radius: 120px;
@@ -101,13 +101,6 @@ h2 {
     font-family: 'Inclusive sans', sans-serif;
 }
 
-h3 {
-    /* texte de corprs */
-    color: antiquewhite;
-    text-align: center;
-    margin: 0, auto;
-    font-family: 'Arial', sans-serif;
-}
 
 .titrePrincipale {
     margin-top: 10px;
