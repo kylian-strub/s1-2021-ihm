@@ -84,7 +84,7 @@ footer{
 }
 .contenu-footer{
     width: 100%;
-    margin-inline:100px;
+    padding:10px;
 }
 .menu-reseau{
     display: flex;
@@ -121,6 +121,10 @@ footer{
     background-color: black;
     padding: 20px;
     text-align: center;
+}
+.bas-footer{
+    color: white;
+    font-size: 20px;
 }
 .bas-footer{
     color: white;
