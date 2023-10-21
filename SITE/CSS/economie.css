@@ -70,8 +70,8 @@ body {
 
 
 .accordion {
-    background-color: black;
-    color: #444;
+    background-color: rgb(206, 202, 195);
+    color: black;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -100,7 +100,7 @@ body {
   
 .panel {
     padding: 0 18px;
-    background-color: #FF4800;
+    background-color: orange;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
