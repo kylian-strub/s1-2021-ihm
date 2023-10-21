@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+body{
+    background-color: #ff4800;
+}
 *{
     margin: 0;
     padding:0px;
@@ -14,11 +20,7 @@
     background-color: black;
     padding: 10px;
     align-items: center;
-    border-bottom: 1px solid white;
-    z-index: 100;
-    top:0;
-    left:0;
-    position: fixed;
+    width: 100%
 }
 .menu1 ul li{
     display: inline-block;
@@ -32,6 +34,7 @@
     text-decoration: none;
     color:white;
     text-transform: uppercase;
+    font-family: 'Ubuntu';
 }
 .menu1 ul li::after{
     content:'';
@@ -49,14 +52,30 @@
 .menu1 ul li a:hover{
     color: orange;
 }
-
-
-
-
-
-
-
-
+h1{
+    font-size: 50px;
+    font-family: "Ubuntu";
+    text-align: center;
+    padding:20px
+}
+.figures{
+    display: flex;
+    justify-content: center;
+}
+.figures img{
+    margin-inline: 50px;
+    margin-bottom: 15px;
+}
+.figures p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 170px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 15px;
+}
 footer{
     background-color: black;
     height: auto;
@@ -65,7 +84,7 @@ footer{
 }
 .contenu-footer{
     width: 100%;
-    padding:10px;
+    margin-inline:100px;
 }
 .menu-reseau{
     display: flex;
@@ -94,7 +113,6 @@ footer{
     font-size:1.3em;
     opacity: 0.7;
     transition: 0.5s;
-    font-family:"Ubuntu"
 }
 .menu-footer ul li a:hover{
     opacity:1
@@ -107,5 +125,4 @@ footer{
 .bas-footer{
     color: white;
     font-size: 20px;
-    font-family:Arial, Helvetica, sans-serif
 }
