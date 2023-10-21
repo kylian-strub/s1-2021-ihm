@@ -18,4 +18,4 @@ legendes.forEach(legende => {
 
 legendes[numero].classList.add('active');
 }
-setInterval("ChangeSlide(1)", 7000);
+setInterval("ChangeSlide(1)", 6000);
