@@ -64,23 +64,39 @@ h1{
     text-align: center;
     padding:20px
 }
-
-.figures{
-    display: flex;
-    justify-content: center;
+.Christel{
+    margin-left:25%;
+    margin-top: 50px;
 }
-
-.figures img{
-    margin-inline: 50px;
-    margin-bottom: 15px;
+.Christel h2{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: "Inclusive Sans";
 }
-
-.figures p{
+.Christel h3{
+    margin-top: 10px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 170px;
+    margin-left: -50px;
+    padding-bottom: 25px;
 }
-
+.Jacques{
+    margin-left:57%;
+    margin-top: -476px;
+}
+.Jacques h2{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: "Inclusive Sans";
+    margin-left: -10px;
+}
+.Jacques h3{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -13px;
+    padding-bottom: 25px;
+}
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -93,12 +109,6 @@ p{
     margin-right: 3%;
     border-radius: 15px;
 }
-
-
-
-
-
-
 footer{
     background-color: black;
     height: auto;
