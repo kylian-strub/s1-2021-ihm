@@ -15,7 +15,7 @@ Etudiant 4 : [Vince HURTAULT](mailto:vince.hurtault@edu.univ-fcomte.fr?subject=S
 
 Dans notre projet, nous avons créer un site web dédié à Orange, une entreprise leader dans le domaine des télécommunications. 
 Notre objectif est de réussir à présenter, au mieux, cette entreprise. Pour se faire, nous organiserons notre site en 7 pages différentes :
-## Acceuil
+## Accueil
 Auteur : CARRARA Tim
 <br>
 Contenu : Présente l'aspect général du site, en effet, elle est la page de couverture de notre projet qui renvoie aussi sur les autres pages.
